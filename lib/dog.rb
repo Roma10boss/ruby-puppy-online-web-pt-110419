@@ -13,7 +13,7 @@ class Dog
     end
   end 
   
-  def self.print_all(dog_name)
+  def self.print_all(name)
    @name
   end 
   
