@@ -13,7 +13,7 @@ class Dog
     end
   end 
   
-  def self.print_all(name)
+  def self.print_all(name = ["Pluto","Fido","Maddy"])
    @name = name 
    puts name 
   end 
