@@ -13,7 +13,9 @@ class Dog
     end
   end 
   
-  def self.print_all ()
+  def self.print_all(dog_name)
+    dog_name = ("Pluto","Fido","Maddy")
+    puts dog_name
    
   end 
   
